@@ -1,0 +1,290 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  background-color: burlywood;
+  font-size: 30px;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.social-cont {
+  display: inline-block;
+  margin: 28px 0px 0px 10px;
+}
+
+.socImg {
+  max-width: 40px;
+  height: auto;
+  padding-right: 2px;
+}
+
+.headCont {
+  width: 80%;
+  margin: auto;
+  height: 100px;
+  width: 80%;
+  background-color: teal;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.container {
+  background-image: url(https://cdn6.f-cdn.com/contestentries/130382/10511053/548474427f9bc_thumb900.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: teal;
+  height: 600px;
+  padding-left: 5px;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+footer {
+  width: 80%;
+  height: 40px;
+  background-color: #0080809e;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.btn-main {
+  box-shadow: inset 0px 10px 12px 2px #f2fadc;
+  background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+  background-color: #dbe6c4;
+  border-radius: 8px;
+  border: 1px solid #b2b8ad;
+  display: inline-block;
+  cursor: pointer;
+  color: #586151;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 15px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #ced9bf;
+  width: 80px;
+  margin: 6px;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid #b2b8ad;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 15px;
+  text-decoration: none;
+  width: 80px;
+  color: rgb(10, 6, 14);
+  text-align: center;
+  opacity: 0.6;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btnLogout {
+  box-shadow: 0px 0px 8px 5px #cf866c;
+  background-color: #d0451b;
+  border-radius: 28px;
+  border: 1px solid #942911;
+  justify-items: right;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 26px;
+  margin: 24px;
+  text-decoration: none;
+  text-shadow: 0px 0px 12px #854629;
+  float: right;
+}
+.btnLogout:hover {
+  background-color: #bc3315;
+}
+.btnLogout:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn-edit {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  background-color: #77b55a;
+}
+
+.btn-delete {
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  background-color: #d0451b;
+}
+
+.btnSub {
+  border-radius: 8px;
+  border: 1px solid #b2b8ad;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 15px;
+  text-decoration: none;
+  width: 80px;
+  color: rgb(10, 6, 14);
+  text-align: center;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: linear-gradient(to bottom, #99aa91 5%, #72b352 100%);
+  background-color: #a0b398;
+}
+
+.important {
+  text-align: center;
+}
+
+table {
+  padding: 5px;
+}
+
+tr {
+  padding-bottom: 2px;
+
+  border: 4px;
+  background-color: #5aa2a5;
+}
+
+td {
+  background-color: #d1e5e6;
+  border-radius: 8px;
+  padding: 0px;
+  margin-right: 4px;
+  width: 100%;
+}
+
+#taskDesc {
+  margin-bottom: 5px;
+}
+
+#importance {
+  margin-bottom: 10px;
+}
+
+.addTask {
+  background-color: teal;
+  width: 30%;
+  height: 220px;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgb(179, 216, 213), green);
+}
+
+.addTaskTop {
+  display: table;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#addText {
+  font-size: 10pt;
+  height: 60px;
+  width: 200px;
+  word-wrap: normal;
+}
+
+.index-cont {
+  height: 700px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("/img/loginBackground.jpg");
+  align-items: center;
+  border-radius: 7px;
+}
+
+.reg-cont {
+  width: 40%;
+  height: 250px;
+}
+
+.login-cont {
+  width: 40%;
+  height: 250px;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+fieldset {
+  height: 200px;
+}
+
+legend {
+  font-size: 20px;
+}
+
+.idCell {
+  width: 50px;
+  text-align: center;
+}
+
+.impCell {
+  width: 75px;
+  text-align: center;
+}
+
+.taskCell {
+  width: 100%;
+}
+
+input {
+  border: none;
+  background-color: #d1e5e6;
+}
+
+.post-tr {
+  box-shadow: blanchedalmond;
+  margin-top: 4px;
+}
+
+.btn-td {
+  background: none;
+}
+
+@media (max-width: 780px) {
+  .media {
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrap {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .addTask {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+}
