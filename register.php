@@ -47,7 +47,6 @@
             </fieldset>
         </div>
     </div>
-    </div>
 
 </body>
 
