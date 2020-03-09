@@ -25,30 +25,30 @@ if (isset($_POST['reg_user'])) {
     header('Location: todo.php');
 }
 
-//Log in
-if (isset($_POST['login_user'])) {
-    $email = $_POST['email'];
-    $password = $_POST['password'];
+// //Log in
+// if (isset($_POST['login_user'])) {
+//     $email = $_POST['email'];
+//     $password = $_POST['password'];
 
-    if (empty($username)) {
-        array_push($errors, "Username is required");
-    }
-    if (empty($password)) {
-        array_push($errors, "Password is required");
-    }
+//     if (empty($username)) {
+//         array_push($errors, "Username is required");
+//     }
+//     if (empty($password)) {
+//         array_push($errors, "Password is required");
+//     }
 
-    if (count($errors) == 0) {
-        $password = ($password);
-        $query = "SELECT * FROM users WHERE email='$email' AND password='$password'";
-        $results = mysqli_query($dbname, $query);
-        echo $result;
-        if (mysqli_num_rows($results) == 2) {
-            $_SESSION['email'] = $email;
-            $_SESSION['success'] = "You are now logged in";
-            header('location: todo.php');
-        }
-    }
-}
+//     if (count($errors) == 0) {
+//         $password = ($password);
+//         $query = "SELECT * FROM users WHERE email='$email' AND password='$password'";
+//         $results = mysqli_query($dbname, $query);
+//         echo $result;
+//         if (mysqli_num_rows($results) == 2) {
+//             $_SESSION['email'] = $email;
+//             $_SESSION['success'] = "You are now logged in";
+//             header('location: todo.php');
+//         }
+//     }
+// }
 
 //Add tasks
 
